@@ -42,9 +42,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // if (didRequestLaunchExternalDisplay()) {
-	if (true) {
-            setFullScreenForExternalDisplay();
-        }
+        setFullScreenForExternalDisplay();
 
         LorieService.setMainActivity(this);
         LorieService.start(LorieService.ACTION_START_FROM_ACTIVITY);
